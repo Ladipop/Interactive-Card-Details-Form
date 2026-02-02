@@ -1,5 +1,6 @@
 import logo from "./images/card-logo.svg";
 import complete from "./images/icon-complete.svg";
+import bgDesktop from "./images/bg-main-desktop.png";
 import "./App.css";
 import { useState } from "react";
 
@@ -28,7 +29,10 @@ function App() {
   const newError = {};
   return (
     <main className="container">
-      <section className="left-panel">
+      <section
+        className="left-panel"
+        style={{ backgroundImage: `url(${bgDesktop})` }}
+      >
         <LeftPanel card={card} />
       </section>
       <RightPanel

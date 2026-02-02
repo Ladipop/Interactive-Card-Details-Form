@@ -55,7 +55,6 @@ body {
   transform: translate(-75%, -50%);
 }
 .left-panel {
-  background-image: url("./images/bg-main-desktop.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
