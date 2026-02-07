@@ -1,5 +1,7 @@
 # Interactive Card Details Form
 
+# Interactive Card Details Form
+
 ![Project Screenshot](screenshot.png)
 
 A responsive interactive card details form with real-time preview updates and client-side validation. Built as a Frontend Mentor challenge.
